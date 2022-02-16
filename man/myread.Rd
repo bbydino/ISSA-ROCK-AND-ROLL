@@ -4,15 +4,11 @@
 \alias{myread}
 \title{Read a CSV File}
 \usage{
-myread(csv)
+my.df = myread("MYCSV.csv")
 }
 \arguments{
 \item{csv}{a csv file in the working directory to read in}
 }
 \description{
 Given a csv file, reads the file from the current working directory. MATH 4753 Lab 2
-}
-\examples{
-mpg.df = myread("EPAGAS.csv")
-
 }

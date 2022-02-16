@@ -4,8 +4,8 @@
 #'
 #' @param csv a csv file in the working directory to read in
 #'
-#' @examples
-#' mpg.df = myread("EPAGAS.csv")
+#' @usage
+#' my.df = myread("MYCSV.csv")
 #'
 #' @export
 myread <- function(csv) {
