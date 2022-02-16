@@ -2,7 +2,7 @@
 % Please edit documentation in R/mybin.r
 \name{mybin}
 \alias{mybin}
-\title{Simulate a binomial expe}
+\title{Simulate a binomial experiment}
 \usage{
 mybin(iter = 100, n = 10, p = 0.5)
 }

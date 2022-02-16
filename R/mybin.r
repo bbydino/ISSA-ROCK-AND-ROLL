@@ -1,4 +1,4 @@
-#' Simulate a binomial expe
+#' Simulate a binomial experiment
 #'
 #' Simulates a binomial experiment with given
 #' iteration, sample size, and probability of success.

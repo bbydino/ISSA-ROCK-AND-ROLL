@@ -4,7 +4,7 @@
 \alias{myread}
 \title{Read a CSV File}
 \usage{
-my.df = myread("MYCSV.csv")
+myread(csv)
 }
 \arguments{
 \item{csv}{a csv file in the working directory to read in}

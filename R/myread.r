@@ -4,9 +4,6 @@
 #'
 #' @param csv a csv file in the working directory to read in
 #'
-#' @usage
-#' my.df = myread("MYCSV.csv")
-#'
 #' @export
 myread <- function(csv) {
   dird = paste(getwd(), "/", sep = "")
