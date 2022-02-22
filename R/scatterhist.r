@@ -8,6 +8,9 @@
 #' @param ylab a label for the y axis, defaults to empty string
 #' @param col color for the scatter plot
 #'
+#' @importFrom grDevices rainbow
+#' @importFrom graphics barplot hist layout mtext par
+#'
 #' @examples
 #' Speed <- cars$speed
 #' Distance <- cars$dist

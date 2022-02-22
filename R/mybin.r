@@ -10,6 +10,9 @@
 #' @param n sample size (default n=10)
 #' @param p probability of success (default p=0.5)
 #'
+#' @importFrom grDevices rainbow
+#' @importFrom graphics barplot
+#'
 #' @return table of relative frequencies
 #'
 #' @examples

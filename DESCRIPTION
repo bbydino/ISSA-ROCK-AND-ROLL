@@ -8,4 +8,11 @@ Description: This is bbydino's R Package for MATH 4753 - Applied Statistical Met
 License: GPL-2
 Encoding: UTF-8
 LazyData: true
+Depends: R (>= 2.10)
 RoxygenNote: 7.1.2
+Imports:
+    ggplot2,
+    graphics,
+    dplyr,
+    s20x,
+    rstan

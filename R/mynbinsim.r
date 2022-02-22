@@ -9,6 +9,8 @@
 #' @param iter number of iterations (default iter=100)
 #' @param p probability of success for each trial (default p=0.5)
 #'
+#' @importFrom grDevices rainbow
+#' @importFrom graphics barplot
 #' @return table of relative frequencies of probabilities
 #'
 #' @examples
