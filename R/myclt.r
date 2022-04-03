@@ -11,8 +11,6 @@
 #' @importFrom graphics lines
 #' @importFrom stats density dunif runif
 #'
-#' @return list of sample data
-#'
 #' @export
 mycltu = function(n, iter, a = 0, b = 10) {
   ## r-random sample from the uniform
@@ -67,7 +65,7 @@ mycltu = function(n, iter, a = 0, b = 10) {
 #' @param n sample size
 #' @param iter number of iterations
 #' @param p probability of success for each trial
-#'
+#' @param ... params for histogram
 #' @importFrom graphics lines
 #' @importFrom stats density dbinom rbinom
 #'
@@ -125,7 +123,7 @@ mycltb = function(n, iter, p = 0.5, ...) {
 #' @param n sample size
 #' @param iter number of iterations
 #' @param lambda lambda value of the Poisson random variable
-#'
+#' @param ... params for histogram
 #' @importFrom graphics lines
 #' @importFrom stats density dpois rpois
 #'

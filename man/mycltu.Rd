@@ -15,9 +15,6 @@ mycltu(n, iter, a = 0, b = 10)
 
 \item{b}{upper limit}
 }
-\value{
-list of sample data
-}
 \description{
 Generates n * iter random samples of a uniform distribution,
 plots the results, and returns a list of sample values.

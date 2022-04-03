@@ -12,6 +12,8 @@ mycltb(n, iter, p = 0.5, ...)
 \item{iter}{number of iterations}
 
 \item{p}{probability of success for each trial}
+
+\item{...}{params for histogram}
 }
 \description{
 Generates n * iter random samples of a binomial distribution

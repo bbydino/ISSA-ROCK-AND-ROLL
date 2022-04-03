@@ -12,6 +12,8 @@ mycltp(n, iter, lambda = 10, ...)
 \item{iter}{number of iterations}
 
 \item{lambda}{lambda value of the Poisson random variable}
+
+\item{...}{params for histogram}
 }
 \description{
 Generates n * iter random samples of a Poisson distribution
