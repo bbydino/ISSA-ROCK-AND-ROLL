@@ -13,6 +13,7 @@
 #'
 #' @export
 mycltu = function(n, iter, a = 0, b = 10) {
+  x <- NULL # make R check happy
   ## r-random sample from the uniform
   y = runif(n * iter, a, b)
   ## Place these numbers into a matrix
@@ -66,11 +67,13 @@ mycltu = function(n, iter, a = 0, b = 10) {
 #' @param iter number of iterations
 #' @param p probability of success for each trial
 #' @param ... params for histogram
+#'
 #' @importFrom graphics lines
 #' @importFrom stats density dbinom rbinom
 #'
 #' @export
 mycltb = function(n, iter, p = 0.5, ...) {
+  x <- NULL # make R check happy
   ## r-random sample from the Binomial
   y = rbinom(n * iter, size = n, prob = p)
   ## Place these numbers into a matrix
@@ -83,7 +86,7 @@ mycltb = function(n, iter, p = 0.5, ...) {
   ## How high should we make y axis?
   ## All the values used to make a histogram are placed in param (nothing is plotted yet)
   param = hist(w, plot = FALSE)
-  ## Sincole the histogram will be a density plot we will find the max density
+  ## Since the histogram will be a density plot we will find the max density
 
   ymax = max(param$density)
   ## To be on the safe side we will add 10% more to this

@@ -13,7 +13,7 @@ myboot2(iter = 10000, x, fun = "mean", alpha = 0.05, cx = 1.5, ...)
 
 \item{fun}{statistic or function to make interval of}
 
-\item{alpha}{alpha value in confidence interval (1-alpha)100% confidence}
+\item{alpha}{alpha value in confidence interval (1-alpha)100 percent confidence}
 
 \item{cx}{text thickness in figure}
 
@@ -25,7 +25,5 @@ list containing confidence interval, statistic/function, and data
 \description{
 Creates a bootstrap confidence interval for the given statistic
 or function.
-}
-\details{
 From: MATH 4753 Lab 9
 }

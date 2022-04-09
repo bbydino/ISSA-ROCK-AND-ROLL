@@ -56,6 +56,7 @@ normregioncurve = function(mean,
                            to,
                            col = "Magenta",
                            lower.tail = TRUE) {
+  x <- NULL # make R check happy
   # DRAW NORMAL CURVE
   curve(dnorm(x, mean, sd), xlim = c(mean - 3 * sd, mean + 3 * sd))
 
@@ -122,6 +123,7 @@ normregioncurve = function(mean,
 #'
 #' @export
 gammaregioncurve = function(shape, scale, from, to, xlim, col = "Magenta") {
+  x <- NULL # make R check happy
   # DRAW CURVE
   curve(dgamma(x, shape = shape, scale = scale), xlim = xlim)
 
@@ -169,6 +171,7 @@ gammaregioncurve = function(shape, scale, from, to, xlim, col = "Magenta") {
 #'
 #' @export
 chisqregioncurve = function(df, from, to, xlim, ylim, col = "Magenta") {
+  x <- NULL # make R check happy
   # DRAW CURVE
   curve(
     dchisq(x, df = df),

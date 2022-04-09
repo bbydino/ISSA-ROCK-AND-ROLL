@@ -2,20 +2,19 @@
 #'
 #' Creates a bootstrap confidence interval for the given statistic
 #' or function.
-#'
 #' From: MATH 4753 Lab 9
 #'
 #' @param iter number of iterations
 #' @param x input data
 #' @param fun statistic or function to make interval of
-#' @param alpha alpha value in confidence interval (1-alpha)100% confidence
+#' @param alpha alpha value in confidence interval (1-alpha)100 percent confidence
 #' @param cx text thickness in figure
 #' @param ... params for histogram
 #'
+#' @return list containing confidence interval, statistic/function, and data
+#'
 #' @importFrom graphics abline segments
 #' @importFrom stats quantile
-#'
-#' @return list containing confidence interval, statistic/function, and data
 #'
 #' @export
 myboot2 <- function(iter = 10000,
