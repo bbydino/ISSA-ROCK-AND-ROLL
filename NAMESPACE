@@ -3,6 +3,7 @@
 export(chisqregioncurve)
 export(gammaregioncurve)
 export(getmode)
+export(myNRML)
 export(mybin)
 export(myboot2)
 export(mycltb)
